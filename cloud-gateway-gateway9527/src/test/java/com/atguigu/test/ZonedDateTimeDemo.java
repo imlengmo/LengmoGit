@@ -12,6 +12,7 @@ public class ZonedDateTimeDemo
     {
         ZonedDateTime zbj = ZonedDateTime.now(); // 默认时区
         System.out.println(zbj);
+        System.out.println("11111");
 //        ZonedDateTime zny = ZonedDateTime.now(ZoneId.of("America/New_York")); // 用指定时区获取当前时间
 //        System.out.println(zny);
     }
