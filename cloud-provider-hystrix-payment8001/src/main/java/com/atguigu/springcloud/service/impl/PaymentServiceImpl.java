@@ -35,7 +35,7 @@ public class PaymentServiceImpl implements PaymentService {
     })
     public String paymentInfo_TimeOut(Integer id)
     {
-        try { TimeUnit.SECONDS.sleep(3000); } catch (InterruptedException e) { e.printStackTrace(); }
+        try { TimeUnit.SECONDS.sleep(4000); } catch (InterruptedException e) { e.printStackTrace(); }
         return "线程池:"+Thread.currentThread().getName()+"paymentInfo_TimeOut,id: "+id+"\t"+"O(∩_∩)O，耗费3秒";
     }
 
